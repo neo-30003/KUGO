@@ -615,8 +615,8 @@
           <h3 class="footer-upper-title">Оставьте свою почту и станьте первым,<br>кто получит скидку на новые самокаты</h3>
           <form action="handler-copy.php" method="POST" class="footer-upper-form">
             <div class="input-group footer-upper-input-group">
-              <input id="user-email" type="text" class="input footer-upper-input" name="useremail" placeholder=" " maxlength="100" required>
-              <label class="input-group-label footer-upper-input-group-label" for="user-email">Введите Ваш email</label>
+              <input id="email" type="text" class="input footer-upper-input" name="email" placeholder=" " maxlength="100" required>
+              <label class="input-group-label footer-upper-input-group-label" for="email">Введите Ваш email</label>
             </div>
             <!-- /.input-group -->
             <button type="submit" class="button footer-upper-form-button">
@@ -968,6 +968,9 @@
       <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://rawgit.com/RobinHerbots/Inputmask/5.x/dist/jquery.inputmask.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>

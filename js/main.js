@@ -88,7 +88,7 @@ footerForm.forEach((form) => {
     errorFieldCssClass: "is-invalid",
   });
   validation
-  .addField("[name=useremail]", [
+  .addField("[name=email]", [
     {
       rule: "required",
       errorMessage: "Укажите почту",
@@ -220,4 +220,8 @@ document.addEventListener("input", (e) => {
     /* итог: номер в формате +7 (999) 123-45-67 */	
     input.value = result;	
   }	
-})
+});
+$(document).ready(function(){
+  // Электронная почта
+  $("#email").inputmask("email");
+});
